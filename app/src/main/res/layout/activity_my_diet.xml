@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MyDiet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/pacifico"
+        android:text="@string/my_diet"
+        android:textColor="@color/app_name"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:background="@color/background"
+        android:textAlignment="center"/>
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        app:pstsIndicatorColor="@color/colorPrimary"
+        app:pstsDividerColor="@color/blue"
+        app:pstsIndicatorHeight="3sp"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabs">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

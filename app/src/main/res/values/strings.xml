@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dieta na 100</string>
+    <string name="my_diet">Moja dieta</string>
+    <string name="set_meal">Ustaw Dietę</string>
+    <string name="add_meal">Dodaj Posiłek</string>
+    <string name="progress">Postępy</string>
+    <string name="cart">Zakupy</string>
+    <string name="calculator">Kalkulatory</string>
+</resources>

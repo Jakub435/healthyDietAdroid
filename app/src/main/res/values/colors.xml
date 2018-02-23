@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#beaef213</color>
+    <color name="background_darker">#aef213</color>
+    <color name="background_myDiet">#b5dfdcda</color>
+    <color name="background_myDiet_linear">#e6f4efec</color>
+    <color name="app_name">#FFFFFF</color>
+    <color name="blue">#c34466a9</color>
+    <color name="my_diet_ingr">#b2b1ff00</color>
+    <color name="my_diet_desc">#aac5c4c4</color>
+    <color name="my_diet_nutr">#9f0a0a62</color>
+</resources>
